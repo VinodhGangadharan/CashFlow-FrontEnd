@@ -14,11 +14,11 @@ const Login = () => {
 
   const user = useLoaderData();
 
-  useEffect(() => {
+ /* useEffect(() => {
     if (user) {
       navigate('/dashboard');
     }
-  }, [user]);
+  }, [user]);*/
 
   const handleCancel = () => {
     window.history.back();
