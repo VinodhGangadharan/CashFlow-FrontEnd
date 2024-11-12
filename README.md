@@ -73,9 +73,12 @@
 
 ### Add Expense: 
 
-* Add expense details by selecting category (Expense/Recurring Expense).
-* "Expense" - If budget is set, the budget limit and amount spent will be displayed
-* "Recurring Expense" - If Recurring expense is already set, those values will be autopopulated.
+* Add expense details by selecting Expense Type (Expense/Recurring Expense).
+* Base on selection of Expense Type different categories will be loaded related to it.
+  
+* For "Expense" - If budget is set for that category, the budget limit and amount spent for the month will be displayed
+* For "Recurring Expense" - If Recurring expense is already set for that category, those values will be autopopulated here.
+  
 * Transactions details can be exported to csv file
 
 ![Expense-budget](https://github.com/user-attachments/assets/749ccdf9-bdd6-448c-bf6c-ba0f2b6ed8bb)
