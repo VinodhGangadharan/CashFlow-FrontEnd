@@ -1,6 +1,6 @@
 # Cash Flow Website
 
-### Tech Stack Front End : ( React js, Tailwind css , Axios , React redux, React Router dom, Node js, JWT )
+### Tech Stack Front End : ( React js, Tailwind css , Axios , React redux, React Router dom )
 #### Additional packages : (Chart.js, react2csv , react icons, hero icons )
 
 ![Dashboard](https://github.com/user-attachments/assets/15d25d30-fd6b-4dcb-9e8b-bfb7c6ad7be1)
@@ -14,7 +14,7 @@
 
 * User can export the transactions and user will be able to check notification and reminders and view charts . 
 
-* User can edit the profile and select currency based on their region.
+* User can edit their profile and select currency based on their region.
 
 ## Application Walkthrough:
 
@@ -26,7 +26,7 @@
 
 ### Login:
 
-* Provide Email & Password to login and user will be navigated to Dashboard page.
+* Provide Email & Password used while register to login and then user will be navigated to the Dashboard page.
 
 ![Login](https://github.com/user-attachments/assets/52982e5f-84e6-44e9-bd61-472bc97f6fd2)
 
@@ -34,7 +34,7 @@
 ### Dashboard:
 
 * Dashboard contains details of overall Income, Expense, Available Balance, Investment and Goals.
-* Contains visual representation - Chart
+* Contains visual representation - Chart data
 
 ![UserDashboard](https://github.com/user-attachments/assets/57dae76f-fd4d-43f8-934e-610b79a7104a)
 
@@ -53,7 +53,7 @@
 
 ### Set Goal: 
 
-* Set short/long term goal with deadline and the achievable status will be shown under notifcations icon based on over all available balance.
+* Set short/long term goal with deadline and the achievable /Yet to achieve status will be shown under notifcations icon based on over all available balance.
 
 ![Goal](https://github.com/user-attachments/assets/8830b544-f5ac-450f-aa1e-6486c7e65caa)
 
@@ -66,7 +66,7 @@
 
 ### Add Income: 
 
-* Add income details by selecting category.
+* Add income details by selecting income category.
 * Transactions details can be exported to csv file
 
 ![Income](https://github.com/user-attachments/assets/517092ae-7af1-4fb1-b528-9daf91fda6bb)
@@ -74,8 +74,8 @@
 ### Add Expense: 
 
 * Add expense details by selecting category (Expense/Recurring Expense).
-* Expense - If budget is set, the budget limit and amount spent will be displayed
-* Recurring Expense - If Recurring expense is set, the values will be autopopulated.
+* "Expense" - If budget is set, the budget limit and amount spent will be displayed
+* "Recurring Expense" - If Recurring expense is already set, those values will be autopopulated.
 * Transactions details can be exported to csv file
 
 ![Expense-budget](https://github.com/user-attachments/assets/749ccdf9-bdd6-448c-bf6c-ba0f2b6ed8bb)
@@ -93,6 +93,10 @@
 ### Notification and Reminders (icon): 
 
 * Contains Notications / Reminders of Expense , Goal & Investments.
+* Expense - Details of expense and occurence date is highlighted
+* Goal - Achievable / Yet to achieve status will be displayed based on user's available balance.
+* Investments - Upcoming year projection will be displayed based on the performance % provided by user.
+  
 
   ![Notifications](https://github.com/user-attachments/assets/3cb6e701-0293-4e02-8f9d-8f3261b45823)
 
