@@ -82,6 +82,14 @@
 
 ![Expense-recurring](https://github.com/user-attachments/assets/895b4dea-a5f3-49e5-8f52-19195d55880c)
 
+### User Profile :
+
+* User will be able to set currency based on their preference and that will be reflected in the Dashbaord
+* Default is "INR"
+
+![UserProfile](https://github.com/user-attachments/assets/eb634e66-1b01-438a-8715-3dada38ae759)
+
+
 ### Notification and Reminders (icon): 
 
 * Contains Notications / Reminders of Expense , Goal & Investments.
